@@ -1,6 +1,5 @@
 ﻿using System;
 using CoreGraphics;
-using Foundation;
 using UIKit;
 
 namespace VasSonic.iOS.Demo
