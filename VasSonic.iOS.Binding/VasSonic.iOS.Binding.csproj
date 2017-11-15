@@ -43,5 +43,15 @@
   <ItemGroup>
     <Folder Include="Static\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Static\Makefile" />
+    <None Include="Static\Podfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Static\VasSonic.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
