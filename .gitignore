@@ -4,8 +4,12 @@
 # build
 [Oo]bj/
 [Bb]in/
+[Bb]uild/
+Pods/
 packages/
 TestResults/
+Podfile.lock
+*.framework
 
 # globs
 Makefile.in
